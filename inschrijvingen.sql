@@ -27,6 +27,13 @@ update studenten
 set actief  = '0'
 where inschrijvings_datum < "2017-01-01";
 
+select ov_nummer, concat(voornaam, " " ,achternaam) as volledigenaam from studenten 
+where actief = 1
+
+;
+
+
+
 
 
 
