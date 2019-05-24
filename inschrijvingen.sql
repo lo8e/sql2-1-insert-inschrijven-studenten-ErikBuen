@@ -24,7 +24,7 @@ set geboortedatum = "1997-09-30 00:00:00"
 where ov_nummer = 90002;
 
 update studenten
-set actief  = 0
+set actief  = '0'
 where inschrijvings_datum < "2017-01-01";
 
 
